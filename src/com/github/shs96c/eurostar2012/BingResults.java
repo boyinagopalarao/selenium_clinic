@@ -14,6 +14,8 @@ public class BingResults implements ResultsPage {
 
   public BingResults(WebDriver driver) {
     this.driver = driver;
+    
+    //this is has changed
   }
 
   public int getCount() {
